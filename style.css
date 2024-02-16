@@ -123,3 +123,101 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   transform: scale(0.85);
 }
+/* The CSS color property defines the text color to be used.
+
+The CSS font-family property defines the font to be used.
+
+The CSS font-size property defines the text size to be used.
+
+ */
+ /* border- це ширина щита навколо слова */
+ /* padding- ширина між словом та щитом  */
+ /* margin- ширина між словами і рядках  */
+ /* Use the HTML style attribute for inline styling
+    Use the HTML <style> element to define internal CSS
+    Use the HTML <link> element to refer to an external CSS file
+    Use the HTML <head> element to store <style> and <link> elements
+    Use the CSS color property for text colors
+    Use the CSS font-family property for text fonts
+    Use the CSS font-size property for text sizes
+    Use the CSS border property for borders
+    Use the CSS padding property for space inside the border
+    Use the CSS margin property for space outside the border
+ */
+ /* <p><a href="#C4">Jump to Chapter 4</a></p> тут написано як зробити переміщення і створення id,тобто,контейнера 
+<p><a href="#C10">Jump to Chapter 10</a></p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+ */
+ /* shape=""// це різниця в тому що ти 
+ rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region */
+/* background-image: url('img_girl.jpg');  фото на фоні тексту */
+/* background-image: url('example_img_girl.jpg'); //example_- добавити  це в рядок і будуть малі фото 
+  background-repeat: no-repeat; //якщо написати то не буде повторів */
+
+ /* background-size: cover;// покриє весь елемент 
+ background-attachment: fixed; .. фон прикріплення */
+ /* <picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg"> //це все працює як змінюється ширина екрану тому фото різні при іншому розмірі 
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture> */
+
+/* <table>	Defines a table
+<th>	Defines a header cell in a table
+<tr>	Defines a row in a table
+<td>	Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	Specifies column properties for each column within a <colgroup> element
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table
+border-collapse: collapse; //приберає другу ліную бордеру*/
+/* :nth-child() // приклад селектору(псевдо клас) 
+li {
+  float:left;//цей псевдоклас 
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
